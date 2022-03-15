@@ -29,7 +29,7 @@ namespace ArduinoKomponenty
         private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             
-            label.Content = mainWindow.dataFromArduino.ToString();
+            
         }
     }
 }

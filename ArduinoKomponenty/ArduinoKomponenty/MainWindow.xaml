@@ -7,8 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="287" Width="189">
     <Grid Background="Gray">
-        <Button x:Name="Czytanie_DanychArduino" Content="Komponent_Odczytu" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Height="53" Width="126" Click="Czytanie_DanychArduino_Click"/>
-        <Button x:Name="Komponent_TrackBar" Content="KomponentWizualny" HorizontalAlignment="Left" Margin="30,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.131,-0.495" Width="126" Height="56" Click="Komponent_TrackBar_Click"/>
-
+        <Button x:Name="button" Content="Odczyt arduino" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Height="39" Width="133" Click="button_Click"/>
     </Grid>
 </Window>
