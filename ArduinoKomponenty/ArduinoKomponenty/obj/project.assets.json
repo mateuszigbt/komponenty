@@ -220,23 +220,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pawel\\.nuget\\packages\\": {},
+    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\komponenty\\ArduinoKomponenty\\ArduinoKomponenty\\ArduinoKomponenty.csproj",
+      "projectUniqueName": "C:\\Users\\pawel\\Source\\Repos\\komponenty\\ArduinoKomponenty\\ArduinoKomponenty\\ArduinoKomponenty.csproj",
       "projectName": "ArduinoKomponenty",
-      "projectPath": "C:\\Users\\user\\source\\komponenty\\ArduinoKomponenty\\ArduinoKomponenty\\ArduinoKomponenty.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\komponenty\\ArduinoKomponenty\\ArduinoKomponenty\\obj\\",
+      "projectPath": "C:\\Users\\pawel\\Source\\Repos\\komponenty\\ArduinoKomponenty\\ArduinoKomponenty\\ArduinoKomponenty.csproj",
+      "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pawel\\Source\\Repos\\komponenty\\ArduinoKomponenty\\ArduinoKomponenty\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

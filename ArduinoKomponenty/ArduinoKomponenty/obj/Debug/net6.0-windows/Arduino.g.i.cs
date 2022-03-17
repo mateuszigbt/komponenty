@@ -69,7 +69,7 @@ namespace ArduinoKomponenty {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ArduinoKomponenty;component/arduino.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ArduinoKomponenty;V1.0.0.0;component/arduino.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Arduino.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

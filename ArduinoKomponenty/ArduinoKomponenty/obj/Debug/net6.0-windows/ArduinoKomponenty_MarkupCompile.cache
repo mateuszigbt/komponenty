@@ -1,20 +1,20 @@
 ﻿ArduinoKomponenty
-
+1.0.0.0
 
 winexe
 C#
 .cs
-C:\Users\user\source\komponenty\ArduinoKomponenty\ArduinoKomponenty\obj\Debug\net6.0-windows\
+C:\Users\pawel\source\repos\komponenty\ArduinoKomponenty\ArduinoKomponenty\obj\Debug\net6.0-windows\
 ArduinoKomponenty
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\user\source\komponenty\ArduinoKomponenty\ArduinoKomponenty\App.xaml
+C:\Users\pawel\source\repos\komponenty\ArduinoKomponenty\ArduinoKomponenty\App.xaml
 31480298081
 
-5369207836
-195-2127093826
+9-2082881906
+1951922284654
 Arduino.xaml;MainWindow.xaml;Wizualnie.xaml;
 
-False
+True
 
