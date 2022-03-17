@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dbe2a0c7-170a-4636-ae27-7d6ff73fbd8e": {
+      "ProjectGuid": "dbe2a0c7-170a-4636-ae27-7d6ff73fbd8e",
+      "DisplayName": "WyświetlanieDanych",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

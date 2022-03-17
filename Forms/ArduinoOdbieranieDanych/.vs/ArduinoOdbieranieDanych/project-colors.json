@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "14b02e43-8dd2-4fe1-83e9-97c500c716b2": {
+      "ProjectGuid": "14b02e43-8dd2-4fe1-83e9-97c500c716b2",
+      "DisplayName": "ArduinoOdbieranieDanych",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
