@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ArduinoKomponenty"
         mc:Ignorable="d"
-        Title="MainWindow" Height="287" Width="189">
+        Title="MainWindow" Height="287" Width="265">
     <Grid Background="Gray">
-        <Button x:Name="button" Content="Odczyt arduino" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Height="39" Width="133" Click="button_Click"/>
+        <Button x:Name="button" Content="Odczyt danych" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Height="39" Width="133" Click="button_Click"/>
+        <Button x:Name="button1" Content="Odczyt wizualny" HorizontalAlignment="Center" Margin="0,104,0,0" VerticalAlignment="Top" Width="133" Height="39" Click="button1_Click"/>
     </Grid>
 </Window>

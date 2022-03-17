@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ArduinoKomponenty"
         mc:Ignorable="d"
-        Title="Wizualnie" Height="324" Width="143">
+        Title="Wizualnie" Height="324" Width="217">
     <Grid Background="Gray">
-        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="61,42,0,0" VerticalAlignment="Top" Width="33" Maximum="80" Orientation="Vertical" Height="229" ValueChanged="slider_ValueChanged"/>
-        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="slider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="23" Maximum="80" Orientation="Vertical" Height="229" ValueChanged="slider_ValueChanged"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="31,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="1.816,0.502"/>
 
     </Grid>
 </Window>

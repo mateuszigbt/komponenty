@@ -26,12 +26,21 @@ namespace ArduinoKomponenty
         public MainWindow()
         {
             InitializeComponent();
+            button1.IsEnabled = false;
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
             Arduino arduino = new Arduino();
             arduino.Show();
+            button1.IsEnabled = true;
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Wizualnie wizualnie = new Wizualnie();
+            wizualnie.Show();
+            
         }
     }
 }

@@ -21,20 +21,27 @@ namespace ArduinoKomponenty
     /// <summary>
     /// Logika interakcji dla klasy Arduino.xaml
     /// </summary>
+    
+
     public partial class Arduino : Window
     {
+        public static Arduino instance;
+        public TextBox tb1;
         private SerialPort serialPort;
         private int DataFromArduino;
-        private string Data;
         public int dataFromArduino
         {
             get { return DataFromArduino; }
             set { DataFromArduino = value; }
         }
+        private string Data;
+        
         public Arduino()
         {
             InitializeComponent();
-            
+            button1.IsEnabled = false;
+            instance = this;
+            tb1 = textBox;
         }
 
         private void Personalization_Arduino()
@@ -64,19 +71,56 @@ namespace ArduinoKomponenty
             
         }
 
-        private void ShowDataEvent()
+        public void ShowDataEvent()
         {
-            textBox.AppendText(Data + "\n");
+            int sprawdz = 0;
+            try
+            {
+                 sprawdz = int.Parse(Data);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Błąd który nie pokazuje");
+            }
+            
+            if (sprawdz > 100)
+            {
+                Console.WriteLine("Błąd który nie pokazuje");
+            }
+            else
+            {
+                textBox.AppendText(Data + "\n");
+            }
+            
+            
+            try
+            {              
+                DataFromArduino = int.Parse(Data);
+            }
+            catch (Exception ex)
+            {
+                DataFromArduino = 0;
+            }
+            
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
+            textBox.ScrollToEnd();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
             Personalization_Arduino();
+            button.IsEnabled = false;
+            button1.IsEnabled = true;
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            serialPort.Close();
+            button.IsEnabled = true;
+            button1.IsEnabled = false;
         }
     }
 }

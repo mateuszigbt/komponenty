@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="Arduino" Height="267" Width="261">
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="27,32,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="121" Height="128" TextChanged="textBox_TextChanged" UndoLimit="0"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="167,32,0,0" VerticalAlignment="Top" Width="61" Height="40" Click="button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="27,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91" Height="185" TextChanged="textBox_TextChanged" />
+        <Button x:Name="button" Content="Uruchom" HorizontalAlignment="Left" Margin="145,32,0,0" VerticalAlignment="Top" Width="61" Height="41" Click="button_Click"/>
+        <Button x:Name="button1" Content="Wyłącz" HorizontalAlignment="Left" Margin="145,91,0,0" VerticalAlignment="Top" Width="61" Height="41" Click="button1_Click"/>
 
     </Grid>
 </Window>

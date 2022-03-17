@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace ArduinoKomponenty
 {
@@ -19,16 +21,41 @@ namespace ArduinoKomponenty
     /// </summary>
     public partial class Wizualnie : Window
     {
-        MainWindow mainWindow = new MainWindow();
+        public static Wizualnie instance;
+        
         public Wizualnie()
-        {
+        {  
             InitializeComponent();
-            
+            instance = this;
+            TimerRefreshing();
         }
 
+        private void DataForSlider()
+        {
+            label.Content = Arduino.instance.dataFromArduino;
+          
+            slider.Value = Arduino.instance.dataFromArduino; 
+            
+        }
+        
         private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             
+            
+        }
+
+        private void TimerRefreshing()
+        {
+            DispatcherTimer dispatcherTimer = new DispatcherTimer();
+            dispatcherTimer.Tick += DispatcherTimer_Tick;
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
+            dispatcherTimer.Start();
+            
+        }
+
+        private void DispatcherTimer_Tick(object? sender, EventArgs e)
+        {
+            DataForSlider();
             
         }
     }
