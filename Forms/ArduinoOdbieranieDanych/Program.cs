@@ -9,7 +9,7 @@ namespace ArduinoOdbieranieDanych
             OdbieranieDanych dane = new OdbieranieDanych();
             while (true)
             {
-                Console.WriteLine(dane.temperatura);
+                Console.WriteLine(dane.wartosci);
                 Task.Delay(1000).Wait();
             }  
         }
