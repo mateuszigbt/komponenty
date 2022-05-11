@@ -220,23 +220,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pawel\\.nuget\\packages\\": {},
-    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\proo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj",
+      "projectUniqueName": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj",
       "projectName": "ArduinoOdbieranieDanych",
-      "projectPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj",
-      "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\obj\\",
+      "projectPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj",
+      "packagesPath": "C:\\Users\\proo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\proo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

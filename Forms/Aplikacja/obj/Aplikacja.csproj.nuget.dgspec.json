@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\Aplikacja\\Aplikacja.csproj": {}
+    "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\Aplikacja\\Aplikacja.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\Aplikacja\\Aplikacja.csproj": {
+    "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\Aplikacja\\Aplikacja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\Aplikacja\\Aplikacja.csproj",
+        "projectUniqueName": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\Aplikacja\\Aplikacja.csproj",
         "projectName": "Aplikacja",
-        "projectPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\Aplikacja\\Aplikacja.csproj",
-        "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\Aplikacja\\obj\\",
+        "projectPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\Aplikacja\\Aplikacja.csproj",
+        "packagesPath": "C:\\Users\\proo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\Aplikacja\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\proo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj": {
-                "projectPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj"
+              "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj": {
+                "projectPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj"
               },
-              "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj": {
-                "projectPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj"
+              "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj": {
+                "projectPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj"
               }
             }
           }
@@ -69,20 +69,20 @@
         }
       }
     },
-    "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj": {
+    "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj",
+        "projectUniqueName": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj",
         "projectName": "ArduinoOdbieranieDanych",
-        "projectPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj",
-        "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\obj\\",
+        "projectPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\ArduinoOdbieranieDanych.csproj",
+        "packagesPath": "C:\\Users\\proo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\ArduinoOdbieranieDanych\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\proo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -133,11 +133,11 @@
         }
       }
     },
-    "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj": {
+    "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj",
+        "projectUniqueName": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj",
         "projectName": "WyświetlanieDanych",
-        "projectPath": "C:\\Users\\pawel\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj",
+        "projectPath": "C:\\Users\\proo\\source\\repos\\komponenty\\Forms\\WyświetlanieDanych\\WyświetlanieDanych.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}

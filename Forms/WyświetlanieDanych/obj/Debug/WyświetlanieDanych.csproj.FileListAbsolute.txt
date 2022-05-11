@@ -8,3 +8,13 @@ C:\Users\pawel\source\repos\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.cs
 C:\Users\pawel\source\repos\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CoreCompileInputs.cache
 C:\Users\pawel\source\repos\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.exe
 C:\Users\pawel\source\repos\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.pdb
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.exe.config
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.exe
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.pdb
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.AssemblyReference.cache
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.SuggestedBindingRedirects.cache
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Properties.Resources.resources
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.GenerateResource.cache
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CoreCompileInputs.cache
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.exe
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.pdb
