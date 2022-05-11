@@ -18,3 +18,9 @@ C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\Wyświ
 C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CoreCompileInputs.cache
 C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.exe
 C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.pdb
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\bin\Debug\CircularProgressBar.dll
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\bin\Debug\WinFormAnimation.dll
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\bin\Debug\CircularProgressBar.xml
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Form1.resources
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Form2.resources
+C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CopyComplete

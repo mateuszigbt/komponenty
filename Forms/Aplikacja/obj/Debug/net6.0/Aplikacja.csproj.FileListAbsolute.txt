@@ -62,3 +62,6 @@ C:\Users\proo\source\repos\komponenty\Forms\Aplikacja\obj\Debug\net6.0\Aplikacja
 C:\Users\proo\source\repos\komponenty\Forms\Aplikacja\obj\Debug\net6.0\ref\Aplikacja.dll
 C:\Users\proo\source\repos\komponenty\Forms\Aplikacja\obj\Debug\net6.0\Aplikacja.pdb
 C:\Users\proo\source\repos\komponenty\Forms\Aplikacja\obj\Debug\net6.0\Aplikacja.genruntimeconfig.cache
+C:\Users\proo\source\repos\komponenty\Forms\Aplikacja\bin\Debug\net6.0\CircularProgressBar.dll
+C:\Users\proo\source\repos\komponenty\Forms\Aplikacja\bin\Debug\net6.0\WinFormAnimation.dll
+C:\Users\proo\source\repos\komponenty\Forms\Aplikacja\bin\Debug\net6.0\CircularProgressBar.xml
