@@ -5,7 +5,17 @@
       "ProjectGuid": "dbe2a0c7-170a-4636-ae27-7d6ff73fbd8e",
       "DisplayName": "WyświetlanieDanych",
       "ColorIndex": 0
+    },
+    "85c6fa84-b129-4acb-b5d9-55d7ab28815a": {
+      "ProjectGuid": "85c6fa84-b129-4acb-b5d9-55d7ab28815a",
+      "DisplayName": "Aplikacja",
+      "ColorIndex": 1
+    },
+    "6dfb6980-8aac-47c3-b644-6c3fd4cc44bd": {
+      "ProjectGuid": "6dfb6980-8aac-47c3-b644-6c3fd4cc44bd",
+      "DisplayName": "ArduinoOdbieranieDanych",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

@@ -13,14 +13,18 @@ namespace ArduinoOdbieranieDanych
 {
     public class OdbieranieDanych
     {
-        public string temperatura { get; set; }
+
+        public List<String> wartosci { get; set; }
         private SerialPort serialPort;
-        public OdbieranieDanych(){
+        private DateTime dateTime { get; set; }
+        public OdbieranieDanych()
+        {
             Personalization_Arduino();
         }
         private void Personalization_Arduino()
         {
             serialPort = new SerialPort();
+            wartosci = new List<String>();
             serialPort.BaudRate = 9600;
             serialPort.PortName = "COM3";
             serialPort.Parity = Parity.None;
@@ -37,7 +41,13 @@ namespace ArduinoOdbieranieDanych
         }
         private void serialPort_DataRecived(object sender, SerialDataReceivedEventArgs e)
         {
-            temperatura = serialPort.ReadLine();
+            String s = serialPort.ReadLine();
+            String[] a = s.Split(' ');
+            for (int i = 0; i < a.Length; i++)
+            {
+                wartosci.Add(a[i]);
+            }
+
         }
     }
 }
