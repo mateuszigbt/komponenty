@@ -24,3 +24,19 @@ C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\bin\Debug\Circul
 C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Form1.resources
 C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Form2.resources
 C:\Users\proo\source\repos\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CopyComplete
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.exe.config
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.exe
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.pdb
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\bin\Debug\CircularProgressBar.dll
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\bin\Debug\WinFormAnimation.dll
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\bin\Debug\CircularProgressBar.xml
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.AssemblyReference.cache
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.SuggestedBindingRedirects.cache
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Form1.resources
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Form2.resources
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Properties.Resources.resources
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.GenerateResource.cache
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CoreCompileInputs.cache
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CopyComplete
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.exe
+C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.pdb

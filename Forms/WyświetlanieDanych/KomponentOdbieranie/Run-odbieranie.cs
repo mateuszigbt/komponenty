@@ -1,0 +1,22 @@
+﻿using System;
+using System.Threading.Tasks;
+
+namespace WyświetlanieDanych.KomponentOdbieranie
+{
+    public static class Run_odbieranie
+    {
+        [STAThread]
+        public static void Main()
+        {
+            OdbieranieDanych dane = new OdbieranieDanych();
+            while (true)
+            {
+                foreach(var item in dane.wartosci)
+                {
+                    Console.WriteLine(item);
+                }
+                Task.Delay(1000).Wait();
+            }
+        }
+    }
+}
