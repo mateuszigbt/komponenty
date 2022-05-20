@@ -11,7 +11,7 @@ namespace WyświetlanieDanych.KomponentOdbieranie
             OdbieranieDanych dane = new OdbieranieDanych();
             while (true)
             {
-                foreach(var item in dane.wartosci)
+                foreach(var item in OdbieranieDanych.Wartosci)
                 {
                     Console.WriteLine(item);
                 }

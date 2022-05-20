@@ -1,29 +1,84 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace WyświetlanieDanych
 {
     public partial class Form2 : Form
     {
-        public EventHandler<string> TransactionApproveEvent;
-        public int Pierwsza { get; set; }
-        public int Druga { get; set; }
-        public int Trzecia { get; set; }
-        public List<int> chartData { get; set; }
+        
+        OdbieranieDanych odbieranieDanych;
+        public string Name1 { get; set; }
+        public string Name2 { get; set; }
+        public string Name3 { get; set; }
+
+        private List<int> yList = new List<int>();
+
         public Form2()
         {
             InitializeComponent();
-            chartData = new List<int>();
-            chart1.DataSource = chartData;
+            odbieranieDanych = new OdbieranieDanych();
+            Thread.Sleep(1111);
+            odbieranieDanych.DataReceived += OdbieranieDanych_DataReceived;
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void OdbieranieDanych_DataReceived(object sender, EventArgs e)
         {
-            TransactionApproveEvent?.Invoke(this, "Odswiez");
-            chartData.Add(Pierwsza);
-            circularProgressBar1.Value = Druga;
-            trackBar1.Value = Trzecia/10;
+            chart1.Invoke(new Action(delegate ()
+            {
+                try
+                {
+                    yList.Add(int.Parse(OdbieranieDanych.Wartosci[0]));
+                    chart1.Series["°C"].Points.DataBindY(yList);
+                }
+                catch (Exception ex)
+                {
+                    yList.Add(0);
+                }
+            }));
+
+            circularProgressBar1.Invoke(new Action(delegate ()
+            {
+                try
+                {
+                    circularProgressBar1.Value = int.Parse(OdbieranieDanych.Wartosci[1]);
+                    circularProgressBar1.Text = OdbieranieDanych.Wartosci[1] + " %";
+                }
+                catch (Exception ex)
+                {
+                    trackBar1.Value = 0;
+                }
+            }));
+
+
+            trackBar1.Invoke(new Action(delegate ()
+            {
+                try
+                {
+                    trackBar1.Value = int.Parse(OdbieranieDanych.Wartosci[2]);
+                    label4.Text = OdbieranieDanych.Wartosci[2];
+                }
+                catch (Exception ex)
+                {
+                    trackBar1.Value = 0;
+                }
+            }));
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            passNameFromFrom1(Name1, Name2, Name3);
+        }
+
+        private void passNameFromFrom1(string name1, string name2, string name3)
+        {
+            
+            label1.Text = name1;
+            label2.Text = name2;
+            label3.Text = name3;
         }
     }
 }

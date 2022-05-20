@@ -40,3 +40,17 @@ C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj
 C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CopyComplete
 C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.exe
 C:\Users\pawel\source\repos\Nowy folder\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.pdb
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.AssemblyReference.cache
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.SuggestedBindingRedirects.cache
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Form1.resources
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Form2.resources
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.Properties.Resources.resources
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.GenerateResource.cache
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CoreCompileInputs.cache
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.exe
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.pdb
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.exe.config
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.exe
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\bin\Debug\WyświetlanieDanych.pdb
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\bin\Debug\CircularProgressBar.xml
+C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\obj\Debug\WyświetlanieDanych.csproj.CopyComplete

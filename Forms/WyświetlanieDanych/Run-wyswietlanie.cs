@@ -9,6 +9,7 @@ namespace WyświetlanieDanych
 {
     public static class Run_wyswietlanie
     {
+        
         /// <summary>
         /// Główny punkt wejścia dla aplikacji.
         /// </summary>
