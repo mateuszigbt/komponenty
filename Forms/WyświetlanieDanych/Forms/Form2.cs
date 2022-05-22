@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -18,14 +19,15 @@ namespace WyświetlanieDanych
         public Form2()
         {
             InitializeComponent();
-            odbieranieDanych = new OdbieranieDanych();
+            odbieranieDanych = new OdbieranieDanych("COM5");
             Thread.Sleep(1111);
             odbieranieDanych.DataReceived += OdbieranieDanych_DataReceived;
-
+            
         }
 
         private void OdbieranieDanych_DataReceived(object sender, EventArgs e)
         {
+           
             chart1.Invoke(new Action(delegate ()
             {
                 try
@@ -65,7 +67,7 @@ namespace WyświetlanieDanych
                     trackBar1.Value = 0;
                 }
             }));
-
+            this.dataLabel.Text = OdbieranieDanych.dateTime.ToString();
         }
 
         private void Form2_Load(object sender, EventArgs e)

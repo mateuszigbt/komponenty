@@ -13,11 +13,12 @@ namespace WyświetlanieDanych
             set { wartosci = value; }
         }
         private SerialPort serialPort;
-        private DateTime dateTime { get; set; }
-        
+        public static DateTime dateTime { get; set; }
+        public String PortName { get; set; } 
 
-        public OdbieranieDanych()
+        public OdbieranieDanych(String portname)
         {
+            PortName = portname;
             Personalization_Arduino();
         }
         private void Personalization_Arduino()
@@ -25,7 +26,7 @@ namespace WyświetlanieDanych
             serialPort = new SerialPort();
             wartosci = new List<string>();
             serialPort.BaudRate = 9600;
-            serialPort.PortName = "COM3";
+            serialPort.PortName = PortName;
             serialPort.Parity = Parity.None;
             serialPort.DataBits = 8;
             serialPort.StopBits = StopBits.One;
@@ -47,7 +48,7 @@ namespace WyświetlanieDanych
             wartosci = new List<string>();
             s = serialPort.ReadLine();
             s = s.Trim();
-
+            dateTime = DateTime.Now;
             string[] a = s.Split(' ');
             
             wartosci.Clear();

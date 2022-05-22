@@ -87,7 +87,6 @@
     <Compile Include="KomponentOdbieranie\Run-odbieranie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Run-wyswietlanie.cs" />
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

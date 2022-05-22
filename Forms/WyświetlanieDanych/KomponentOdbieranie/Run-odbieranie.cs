@@ -8,7 +8,7 @@ namespace WyświetlanieDanych.KomponentOdbieranie
         [STAThread]
         public static void Main()
         {
-            OdbieranieDanych dane = new OdbieranieDanych();
+            OdbieranieDanych dane = new OdbieranieDanych("COM5");
             while (true)
             {
                 foreach(var item in OdbieranieDanych.Wartosci)
