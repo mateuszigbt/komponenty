@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: WyświetlanieDanych
+  commentId: N:WyświetlanieDanych
+  id: WyświetlanieDanych
+  children:
+  - WyświetlanieDanych.Form1
+  - WyświetlanieDanych.Form2
+  - WyświetlanieDanych.OdbieranieDanych
+  - WyświetlanieDanych.Program
+  langs:
+  - csharp
+  - vb
+  name: WyświetlanieDanych
+  nameWithType: WyświetlanieDanych
+  fullName: WyświetlanieDanych
+  type: Namespace
+  assemblies:
+  - WyświetlanieDanych
+references:
+- uid: WyświetlanieDanych.Form1
+  commentId: T:WyświetlanieDanych.Form1
+  name: Form1
+  nameWithType: Form1
+  fullName: WyświetlanieDanych.Form1
+- uid: WyświetlanieDanych.Form2
+  commentId: T:WyświetlanieDanych.Form2
+  name: Form2
+  nameWithType: Form2
+  fullName: WyświetlanieDanych.Form2
+- uid: WyświetlanieDanych.OdbieranieDanych
+  commentId: T:WyświetlanieDanych.OdbieranieDanych
+  name: OdbieranieDanych
+  nameWithType: OdbieranieDanych
+  fullName: WyświetlanieDanych.OdbieranieDanych
+- uid: WyświetlanieDanych.Program
+  commentId: T:WyświetlanieDanych.Program
+  name: Program
+  nameWithType: Program
+  fullName: WyświetlanieDanych.Program

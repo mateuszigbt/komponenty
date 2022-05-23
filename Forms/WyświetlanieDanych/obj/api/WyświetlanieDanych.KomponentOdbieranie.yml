@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: WyświetlanieDanych.KomponentOdbieranie
+  commentId: N:WyświetlanieDanych.KomponentOdbieranie
+  id: WyświetlanieDanych.KomponentOdbieranie
+  children:
+  - WyświetlanieDanych.KomponentOdbieranie.Run_odbieranie
+  langs:
+  - csharp
+  - vb
+  name: WyświetlanieDanych.KomponentOdbieranie
+  nameWithType: WyświetlanieDanych.KomponentOdbieranie
+  fullName: WyświetlanieDanych.KomponentOdbieranie
+  type: Namespace
+  assemblies:
+  - WyświetlanieDanych
+references:
+- uid: WyświetlanieDanych.KomponentOdbieranie.Run_odbieranie
+  commentId: T:WyświetlanieDanych.KomponentOdbieranie.Run_odbieranie
+  name: Run_odbieranie
+  nameWithType: Run_odbieranie
+  fullName: WyświetlanieDanych.KomponentOdbieranie.Run_odbieranie

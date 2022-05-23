@@ -1,0 +1,17 @@
+### YamlMime:TableOfContent
+- uid: WyświetlanieDanych
+  name: WyświetlanieDanych
+  items:
+  - uid: WyświetlanieDanych.Form1
+    name: Form1
+  - uid: WyświetlanieDanych.Form2
+    name: Form2
+  - uid: WyświetlanieDanych.OdbieranieDanych
+    name: OdbieranieDanych
+  - uid: WyświetlanieDanych.Program
+    name: Program
+- uid: WyświetlanieDanych.KomponentOdbieranie
+  name: WyświetlanieDanych.KomponentOdbieranie
+  items:
+  - uid: WyświetlanieDanych.KomponentOdbieranie.Run_odbieranie
+    name: Run_odbieranie

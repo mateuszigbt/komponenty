@@ -13,6 +13,8 @@ using System.IO;
 
 namespace WyświetlanieDanych
 {
+    /// <summary>
+   
     [Serializable]
     public partial class Form1 : Form, ISerializable
     {
@@ -23,6 +25,7 @@ namespace WyświetlanieDanych
         {
             InitializeComponent();
         }
+        /// </summary>
         public Form1(SerializationInfo info, StreamingContext context)
         {
             InitializeComponent();

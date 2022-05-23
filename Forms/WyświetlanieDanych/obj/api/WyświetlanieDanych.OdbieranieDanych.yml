@@ -1,0 +1,704 @@
+### YamlMime:ManagedReference
+items:
+- uid: WyświetlanieDanych.OdbieranieDanych
+  commentId: T:WyświetlanieDanych.OdbieranieDanych
+  id: OdbieranieDanych
+  parent: WyświetlanieDanych
+  children:
+  - WyświetlanieDanych.OdbieranieDanych.#ctor(System.String)
+  - WyświetlanieDanych.OdbieranieDanych.DataReceived
+  - WyświetlanieDanych.OdbieranieDanych.dateTime
+  - WyświetlanieDanych.OdbieranieDanych.PortName
+  - WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)
+  - WyświetlanieDanych.OdbieranieDanych.Wartosci
+  langs:
+  - csharp
+  - vb
+  name: OdbieranieDanych
+  nameWithType: OdbieranieDanych
+  fullName: WyświetlanieDanych.OdbieranieDanych
+  type: Class
+  source:
+    remote:
+      path: Forms/WyświetlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs
+      branch: pawel_final
+      repo: https://github.com/mateuszigbt/komponenty
+    id: OdbieranieDanych
+    path: KomponentOdbieranie/OdbieranieDanych.cs
+    startLine: 6
+  assemblies:
+  - WyświetlanieDanych
+  namespace: WyświetlanieDanych
+  syntax:
+    content: public class OdbieranieDanych
+    content.vb: Public Class OdbieranieDanych
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: WyświetlanieDanych.OdbieranieDanych.Wartosci
+  commentId: P:WyświetlanieDanych.OdbieranieDanych.Wartosci
+  id: Wartosci
+  parent: WyświetlanieDanych.OdbieranieDanych
+  langs:
+  - csharp
+  - vb
+  name: Wartosci
+  nameWithType: OdbieranieDanych.Wartosci
+  fullName: WyświetlanieDanych.OdbieranieDanych.Wartosci
+  type: Property
+  source:
+    remote:
+      path: Forms/WyświetlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs
+      branch: pawel_final
+      repo: https://github.com/mateuszigbt/komponenty
+    id: Wartosci
+    path: KomponentOdbieranie/OdbieranieDanych.cs
+    startLine: 9
+  assemblies:
+  - WyświetlanieDanych
+  namespace: WyświetlanieDanych
+  syntax:
+    content: public static List<string> Wartosci { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Shared Property Wartosci As List(Of String)
+  overload: WyświetlanieDanych.OdbieranieDanych.Wartosci*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: WyświetlanieDanych.OdbieranieDanych.dateTime
+  commentId: P:WyświetlanieDanych.OdbieranieDanych.dateTime
+  id: dateTime
+  parent: WyświetlanieDanych.OdbieranieDanych
+  langs:
+  - csharp
+  - vb
+  name: dateTime
+  nameWithType: OdbieranieDanych.dateTime
+  fullName: WyświetlanieDanych.OdbieranieDanych.dateTime
+  type: Property
+  source:
+    remote:
+      path: Forms/WyświetlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs
+      branch: pawel_final
+      repo: https://github.com/mateuszigbt/komponenty
+    id: dateTime
+    path: KomponentOdbieranie/OdbieranieDanych.cs
+    startLine: 15
+  assemblies:
+  - WyświetlanieDanych
+  namespace: WyświetlanieDanych
+  syntax:
+    content: public static DateTime dateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Property dateTime As Date
+  overload: WyświetlanieDanych.OdbieranieDanych.dateTime*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: WyświetlanieDanych.OdbieranieDanych.PortName
+  commentId: P:WyświetlanieDanych.OdbieranieDanych.PortName
+  id: PortName
+  parent: WyświetlanieDanych.OdbieranieDanych
+  langs:
+  - csharp
+  - vb
+  name: PortName
+  nameWithType: OdbieranieDanych.PortName
+  fullName: WyświetlanieDanych.OdbieranieDanych.PortName
+  type: Property
+  source:
+    remote:
+      path: Forms/WyświetlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs
+      branch: pawel_final
+      repo: https://github.com/mateuszigbt/komponenty
+    id: PortName
+    path: KomponentOdbieranie/OdbieranieDanych.cs
+    startLine: 16
+  assemblies:
+  - WyświetlanieDanych
+  namespace: WyświetlanieDanych
+  syntax:
+    content: public string PortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PortName As String
+  overload: WyświetlanieDanych.OdbieranieDanych.PortName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: WyświetlanieDanych.OdbieranieDanych.#ctor(System.String)
+  commentId: M:WyświetlanieDanych.OdbieranieDanych.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: WyświetlanieDanych.OdbieranieDanych
+  langs:
+  - csharp
+  - vb
+  name: OdbieranieDanych(String)
+  nameWithType: OdbieranieDanych.OdbieranieDanych(String)
+  fullName: WyświetlanieDanych.OdbieranieDanych.OdbieranieDanych(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Forms/WyświetlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs
+      branch: pawel_final
+      repo: https://github.com/mateuszigbt/komponenty
+    id: .ctor
+    path: KomponentOdbieranie/OdbieranieDanych.cs
+    startLine: 18
+  assemblies:
+  - WyświetlanieDanych
+  namespace: WyświetlanieDanych
+  syntax:
+    content: public OdbieranieDanych(string portname)
+    parameters:
+    - id: portname
+      type: System.String
+    content.vb: Public Sub New(portname As String)
+  overload: WyświetlanieDanych.OdbieranieDanych.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: WyświetlanieDanych.OdbieranieDanych.DataReceived
+  commentId: E:WyświetlanieDanych.OdbieranieDanych.DataReceived
+  id: DataReceived
+  parent: WyświetlanieDanych.OdbieranieDanych
+  langs:
+  - csharp
+  - vb
+  name: DataReceived
+  nameWithType: OdbieranieDanych.DataReceived
+  fullName: WyświetlanieDanych.OdbieranieDanych.DataReceived
+  type: Event
+  source:
+    remote:
+      path: Forms/WyświetlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs
+      branch: pawel_final
+      repo: https://github.com/mateuszigbt/komponenty
+    id: DataReceived
+    path: KomponentOdbieranie/OdbieranieDanych.cs
+    startLine: 43
+  assemblies:
+  - WyświetlanieDanych
+  namespace: WyświetlanieDanych
+  syntax:
+    content: public event EventHandler DataReceived
+    return:
+      type: System.EventHandler
+    content.vb: Public Event DataReceived As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)
+  commentId: M:WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)
+  id: serialPort_DataRecived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)
+  parent: WyświetlanieDanych.OdbieranieDanych
+  langs:
+  - csharp
+  - vb
+  name: serialPort_DataRecived(Object, SerialDataReceivedEventArgs)
+  nameWithType: OdbieranieDanych.serialPort_DataRecived(Object, SerialDataReceivedEventArgs)
+  fullName: WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived(System.Object, System.IO.Ports.SerialDataReceivedEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Forms/WyświetlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs
+      branch: pawel_final
+      repo: https://github.com/mateuszigbt/komponenty
+    id: serialPort_DataRecived
+    path: KomponentOdbieranie/OdbieranieDanych.cs
+    startLine: 44
+  assemblies:
+  - WyświetlanieDanych
+  namespace: WyświetlanieDanych
+  syntax:
+    content: public void serialPort_DataRecived(object sender, SerialDataReceivedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.IO.Ports.SerialDataReceivedEventArgs
+    content.vb: Public Sub serialPort_DataRecived(sender As Object, e As SerialDataReceivedEventArgs)
+  overload: WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: WyświetlanieDanych
+  commentId: N:WyświetlanieDanych
+  name: WyświetlanieDanych
+  nameWithType: WyświetlanieDanych
+  fullName: WyświetlanieDanych
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: WyświetlanieDanych.OdbieranieDanych.Wartosci*
+  commentId: Overload:WyświetlanieDanych.OdbieranieDanych.Wartosci
+  name: Wartosci
+  nameWithType: OdbieranieDanych.Wartosci
+  fullName: WyświetlanieDanych.OdbieranieDanych.Wartosci
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: WyświetlanieDanych.OdbieranieDanych.dateTime*
+  commentId: Overload:WyświetlanieDanych.OdbieranieDanych.dateTime
+  name: dateTime
+  nameWithType: OdbieranieDanych.dateTime
+  fullName: WyświetlanieDanych.OdbieranieDanych.dateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: WyświetlanieDanych.OdbieranieDanych.PortName*
+  commentId: Overload:WyświetlanieDanych.OdbieranieDanych.PortName
+  name: PortName
+  nameWithType: OdbieranieDanych.PortName
+  fullName: WyświetlanieDanych.OdbieranieDanych.PortName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: WyświetlanieDanych.OdbieranieDanych.#ctor*
+  commentId: Overload:WyświetlanieDanych.OdbieranieDanych.#ctor
+  name: OdbieranieDanych
+  nameWithType: OdbieranieDanych.OdbieranieDanych
+  fullName: WyświetlanieDanych.OdbieranieDanych.OdbieranieDanych
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived*
+  commentId: Overload:WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived
+  name: serialPort_DataRecived
+  nameWithType: OdbieranieDanych.serialPort_DataRecived
+  fullName: WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived
+- uid: System.IO.Ports.SerialDataReceivedEventArgs
+  commentId: T:System.IO.Ports.SerialDataReceivedEventArgs
+  parent: System.IO.Ports
+  isExternal: true
+  name: SerialDataReceivedEventArgs
+  nameWithType: SerialDataReceivedEventArgs
+  fullName: System.IO.Ports.SerialDataReceivedEventArgs
+- uid: System.IO.Ports
+  commentId: N:System.IO.Ports
+  isExternal: true
+  name: System.IO.Ports
+  nameWithType: System.IO.Ports
+  fullName: System.IO.Ports
