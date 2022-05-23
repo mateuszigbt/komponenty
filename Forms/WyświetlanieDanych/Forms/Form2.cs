@@ -6,20 +6,28 @@ using System.Windows.Forms;
 
 namespace WyświetlanieDanych
 {
+    /// <summary>
+    /// Klasa Form2 zawiera całą mechanika okienka drugiego. Wygląd całej aplikacji.
+    /// </summary>
     public partial class Form2 : Form
     {
         
         OdbieranieDanych odbieranieDanych;
+        /// <returns>Przypisanie Name1 z form1 przez użytkownika</returns>
         public string Name1 { get; set; }
+        /// <returns>Przypisanie Name2 z form1 przez użytkownika</returns>
         public string Name2 { get; set; }
+        /// <returns>Przypisanie Name3 z form1 przez użytkownika</returns>
         public string Name3 { get; set; }
 
         private List<int> yList = new List<int>();
-
+        /// <summary>
+        /// Konstruktor Form2 wywołuje obiekt OdbieranieDanych oraz metode DataReceived aby otrzymać dane z komponentu.
+        /// </summary>
         public Form2()
         {
             InitializeComponent();
-            odbieranieDanych = new OdbieranieDanych("COM5");
+            odbieranieDanych = new OdbieranieDanych("COM3");
             Thread.Sleep(1111);
             odbieranieDanych.DataReceived += OdbieranieDanych_DataReceived;
             
@@ -27,7 +35,7 @@ namespace WyświetlanieDanych
 
         private void OdbieranieDanych_DataReceived(object sender, EventArgs e)
         {
-           
+            
             chart1.Invoke(new Action(delegate ()
             {
                 try
@@ -40,7 +48,7 @@ namespace WyświetlanieDanych
                     yList.Add(0);
                 }
             }));
-
+            
             circularProgressBar1.Invoke(new Action(delegate ()
             {
                 try
@@ -67,7 +75,17 @@ namespace WyświetlanieDanych
                     trackBar1.Value = 0;
                 }
             }));
-            this.dataLabel.Text = OdbieranieDanych.dateTime.ToString();
+            // Stworzylem try catcha bo mi wywalal blad jak cos
+            try
+            {
+                this.dataLabel.Text = OdbieranieDanych.dateTime.ToString();
+            }
+            catch (Exception ex)
+            {
+
+                
+            }
+            
         }
 
         private void Form2_Load(object sender, EventArgs e)

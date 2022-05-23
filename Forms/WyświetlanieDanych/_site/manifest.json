@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WyświetlanieDanych.Form1.html",
-          "hash": "3iPVFOK7NaK9vZyrsLZfEyJrUPu0DhZmzsXWlN6MPJU="
+          "hash": "GH5h3wtnikhlWRLeDLZpMm/Kj4zUh58HZ9bqNMYQgcA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WyświetlanieDanych.Form2.html",
-          "hash": "XwhUtYPdpDHxSkzfpEjMB1UdWa8ed7K9OzNQmpgTsR4="
+          "hash": "RizG6GGgvxlpb68pUjWiGMQD/dYVXdZdkKJ5Gt5ceDo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/WyświetlanieDanych.KomponentOdbieranie.Run_odbieranie.html",
-          "hash": "OYZ1XW4uxgAmEc+5urKj5vvsx8V+N8UTg5J5zTd9pa8="
+          "hash": "LmSBESaYriGPfRc5cFKDBthkvpG3INXJLigOVcpiwnI="
         }
       },
       "is_incremental": true,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/WyświetlanieDanych.KomponentOdbieranie.html",
-          "hash": "ISi2z1qw4ueLjn6Uzc/iOrNom4IsvkKy9bX3Q3MzRTY="
+          "hash": "2w7HBBbN5xe0aUShgCKIoGknb27MbbwoOzYqkjXaomY="
         }
       },
       "is_incremental": true,
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WyświetlanieDanych.OdbieranieDanych.html",
-          "hash": "sxt/o0h9rwuz7fxYI6IsHz054vCB1GosUPTauk6+Jpg="
+          "hash": "zHgKxGYHbfHoiU266MoQf4M0P3Q0zDM+QLkI/Gljf9E="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/WyświetlanieDanych.Program.html",
-          "hash": "R9gjp/POCP3C2+pn8V21xBqn2TWQuQqVNuy6pj4+j6o="
+          "hash": "nin0C/t4x7iyGU2V0T/a+ZQ2spcNCU4A40rfXCCEE7I="
         }
       },
       "is_incremental": true,
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/WyświetlanieDanych.html",
-          "hash": "mob06uBi373VARzdwBR8Y6st/F2xSFM19RNpBaCk5zE="
+          "hash": "8HcTApWY/3zaVH0azK+IYKloQUb2Ew62iPdtJZqptLI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -179,7 +179,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 4
+          "skipped_file_count": 7
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

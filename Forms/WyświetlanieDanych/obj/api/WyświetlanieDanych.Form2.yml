@@ -31,6 +31,8 @@ items:
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\nKlasa Form2 zawiera całą mechanika okienka drugiego. Wygląd całej aplikacji.\n"
+  example: []
   syntax:
     content: 'public class Form2 : Form, IDropTarget, ISynchronizeInvoke, IWin32Window, IBindableComponent, IComponent, IDisposable, IContainerControl'
     content.vb: >-
@@ -592,15 +594,17 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Name1
     path: Forms/Form2.cs
-    startLine: 13
+    startLine: 16
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public string Name1 { get; set; }
     parameters: []
     return:
       type: System.String
+      description: Przypisanie Name1 z form1 przez użytkownika
     content.vb: Public Property Name1 As String
   overload: WyświetlanieDanych.Form2.Name1*
   modifiers.csharp:
@@ -627,15 +631,17 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Name2
     path: Forms/Form2.cs
-    startLine: 14
+    startLine: 18
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public string Name2 { get; set; }
     parameters: []
     return:
       type: System.String
+      description: Przypisanie Name2 z form1 przez użytkownika
     content.vb: Public Property Name2 As String
   overload: WyświetlanieDanych.Form2.Name2*
   modifiers.csharp:
@@ -662,15 +668,17 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Name3
     path: Forms/Form2.cs
-    startLine: 15
+    startLine: 20
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public string Name3 { get; set; }
     parameters: []
     return:
       type: System.String
+      description: Przypisanie Name3 z form1 przez użytkownika
     content.vb: Public Property Name3 As String
   overload: WyświetlanieDanych.Form2.Name3*
   modifiers.csharp:
@@ -697,10 +705,12 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: .ctor
     path: Forms/Form2.cs
-    startLine: 21
+    startLine: 26
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\nKonstruktor Form2 wywołuje obiekt OdbieranieDanych oraz metode DataReceived aby otrzymać dane z komponentu.\n"
+  example: []
   syntax:
     content: public Form2()
     content.vb: Public Sub New
@@ -766,14 +776,16 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: circularProgressBar1
     path: Forms/Form2.Designer.cs
-    startLine: 195
+    startLine: 196
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public CircularProgressBar.CircularProgressBar circularProgressBar1
     return:
       type: CircularProgressBar.CircularProgressBar
+      description: Wykres kołowy w drugim okienku który wyświetla pobrane dane
     content.vb: Public circularProgressBar1 As CircularProgressBar.CircularProgressBar
   modifiers.csharp:
   - public
@@ -797,14 +809,16 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: trackBar1
     path: Forms/Form2.Designer.cs
-    startLine: 196
+    startLine: 198
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public TrackBar trackBar1
     return:
       type: System.Windows.Forms.TrackBar
+      description: Pasek ścieżki w drugim okienku który wyświetla pobrane dane
     content.vb: Public trackBar1 As TrackBar
   modifiers.csharp:
   - public
@@ -828,14 +842,16 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: chart1
     path: Forms/Form2.Designer.cs
-    startLine: 197
+    startLine: 200
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public Chart chart1
     return:
       type: System.Windows.Forms.DataVisualization.Charting.Chart
+      description: Wykres w drugim okienku który wyświetla pobrane dane
     content.vb: Public chart1 As Chart
   modifiers.csharp:
   - public

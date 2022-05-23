@@ -193,8 +193,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
+        /// <returns>Wykres kołowy w drugim okienku który wyświetla pobrane dane</returns>
         public CircularProgressBar.CircularProgressBar circularProgressBar1;
+        /// <returns>Pasek ścieżki w drugim okienku który wyświetla pobrane dane</returns>
         public System.Windows.Forms.TrackBar trackBar1;
+        /// <returns>Wykres w drugim okienku który wyświetla pobrane dane</returns>
         public System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label dataLabel;

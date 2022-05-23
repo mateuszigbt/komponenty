@@ -20,7 +20,7 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Program
     path: Program.cs
-    startLine: 13
+    startLine: 11
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
@@ -62,10 +62,13 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Main
     path: Program.cs
-    startLine: 16
+    startLine: 25
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\nGłówny punkt wejścia dla aplikacji oraz serializacja\n"
+  example:
+  - "\nSerializacja\n<pre><code>Stream str1 = new FileStream(@&quot;example.txt&quot;, FileMode.Open, FileAccess.Read);\nIFormatter format = new BinaryFormatter();\nform1 = (Form1) format.Deserialize(str1);\nstr1.Close();</code></pre>\n"
   syntax:
     content: >-
       [STAThread]

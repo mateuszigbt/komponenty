@@ -20,10 +20,12 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Run_odbieranie
     path: KomponentOdbieranie/Run-odbieranie.cs
-    startLine: 5
+    startLine: 8
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych.KomponentOdbieranie
+  summary: "\nKlasa odpowiedzialna za wywołanie danych w konsoli.\n"
+  example: []
   syntax:
     content: public static class Run_odbieranie
     content.vb: Public Module Run_odbieranie
@@ -62,10 +64,13 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Main
     path: KomponentOdbieranie/Run-odbieranie.cs
-    startLine: 7
+    startLine: 28
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych.KomponentOdbieranie
+  summary: "\nMetoda pobiera zmienną wartosc z klasy OdbieranieDanych\n"
+  example:
+  - "\nTen przyklad pokazuje jak są wyświetlane dane poprzez pobieranie danych z obiektu. Pętla while ma wartość true aby wyświetlać dane w nieskończoność. Foreach pozwala na wykaz danych z listy które przybrał. Delay został użyty aby opóźnić wyświetlanie danych. \n<pre><code>OdbieranieDanych dane = new OdbieranieDanych(&quot;Przypisany COM&quot;);\nwhile (true)\n{\nforeach(var item in OdbieranieDanych.Wartosci)\n{\nConsole.WriteLine(item);\n}\nTask.Delay(1000).Wait();\n}</code></pre>\n"
   syntax:
     content: >-
       [STAThread]

@@ -27,6 +27,8 @@ items:
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\nKlasa Form1 jest serializowana. W tym okienku można wybierać customowe nazwy oraz kolory.\n"
+  example: []
   syntax:
     content: >-
       [Serializable]
@@ -598,10 +600,12 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: .ctor
     path: Forms/Form1.cs
-    startLine: 23
+    startLine: 27
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\nKonstruktor Form1\n"
+  example: []
   syntax:
     content: public Form1()
     content.vb: Public Sub New
@@ -628,17 +632,21 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: .ctor
     path: Forms/Form1.cs
-    startLine: 28
+    startLine: 36
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\nKonstruktor Form1 zawierające informacje na temat serializacji oraz pliku z danymi.\n"
+  example: []
   syntax:
     content: public Form1(SerializationInfo info, StreamingContext context)
     parameters:
     - id: info
       type: System.Runtime.Serialization.SerializationInfo
+      description: Przechowuje wszystkie dane potrzebne do serializacji lub deserializacji obiektu. Klasa ta nie może być dziedziczona
     - id: context
       type: System.Runtime.Serialization.StreamingContext
+      description: Opisuje źródło i miejsce docelowe danego serializowanego strumienia oraz udostępnia dodatkowy kontekst zdefiniowany przez obiekt wywołujący.
     content.vb: Public Sub New(info As SerializationInfo, context As StreamingContext)
   overload: WyświetlanieDanych.Form1.#ctor*
   modifiers.csharp:
@@ -663,17 +671,21 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: GetObjectData
     path: Forms/Form1.cs
-    startLine: 123
+    startLine: 135
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\nMetoda GetObjectData zapisuje informacje na temat serializowanych danych ?\n"
+  example: []
   syntax:
     content: public void GetObjectData(SerializationInfo info, StreamingContext context)
     parameters:
     - id: info
       type: System.Runtime.Serialization.SerializationInfo
+      description: Przechowuje wszystkie dane potrzebne do serializacji lub deserializacji obiektu. Klasa ta nie może być dziedziczona
     - id: context
       type: System.Runtime.Serialization.StreamingContext
+      description: Opisuje źródło i miejsce docelowe danego serializowanego strumienia oraz udostępnia dodatkowy kontekst zdefiniowany przez obiekt wywołujący.
     content.vb: Public Sub GetObjectData(info As SerializationInfo, context As StreamingContext)
   overload: WyświetlanieDanych.Form1.GetObjectData*
   implements:

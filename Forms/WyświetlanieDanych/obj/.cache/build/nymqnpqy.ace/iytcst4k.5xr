@@ -1,0 +1,48 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="Wy%C5%9BwietlanieDanych.html" name="" title="Wy&#347;wietlanieDanych">Wy&#347;wietlanieDanych</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="Wy%C5%9BwietlanieDanych.Form1.html" name="" title="Form1">Form1</a>
+                          </li>
+                          <li>
+                              <a href="Wy%C5%9BwietlanieDanych.Form2.html" name="" title="Form2">Form2</a>
+                          </li>
+                          <li>
+                              <a href="Wy%C5%9BwietlanieDanych.OdbieranieDanych.html" name="" title="OdbieranieDanych">OdbieranieDanych</a>
+                          </li>
+                          <li>
+                              <a href="Wy%C5%9BwietlanieDanych.Program.html" name="" title="Program">Program</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="Wy%C5%9BwietlanieDanych.KomponentOdbieranie.html" name="" title="Wy&#347;wietlanieDanych.KomponentOdbieranie">Wy&#347;wietlanieDanych.KomponentOdbieranie</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="Wy%C5%9BwietlanieDanych.KomponentOdbieranie.Run_odbieranie.html" name="" title="Run_odbieranie">Run_odbieranie</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

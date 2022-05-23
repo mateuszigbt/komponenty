@@ -13,16 +13,27 @@ using System.IO;
 
 namespace WyświetlanieDanych
 {
+    /// <summary>
+    /// Klasa Form1 jest serializowana. W tym okienku można wybierać customowe nazwy oraz kolory.
+    /// </summary>
     [Serializable]
     public partial class Form1 : Form, ISerializable
     {
         
         private List<int> forRandomChartY = new List<int>();
         private string name1, name2, name3;
+        /// <summary>
+        /// Konstruktor Form1
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Konstruktor Form1 zawierające informacje na temat serializacji oraz pliku z danymi.
+        /// </summary>
+        /// <param name="info">Przechowuje wszystkie dane potrzebne do serializacji lub deserializacji obiektu. Klasa ta nie może być dziedziczona</param>
+        /// <param name="context">Opisuje źródło i miejsce docelowe danego serializowanego strumienia oraz udostępnia dodatkowy kontekst zdefiniowany przez obiekt wywołujący.</param>
         public Form1(SerializationInfo info, StreamingContext context)
         {
             InitializeComponent();
@@ -117,7 +128,11 @@ namespace WyświetlanieDanych
             forRandomChartY.Add(24);
             forRandomChartY.Add(30);
         }
-
+        /// <summary>
+        /// Metoda GetObjectData zapisuje informacje na temat serializowanych danych ?
+        /// </summary>
+        /// <param name="info">Przechowuje wszystkie dane potrzebne do serializacji lub deserializacji obiektu. Klasa ta nie może być dziedziczona</param>
+        /// <param name="context">Opisuje źródło i miejsce docelowe danego serializowanego strumienia oraz udostępnia dodatkowy kontekst zdefiniowany przez obiekt wywołujący.</param>
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
             info.AddValue("label1", this.label1.Text, typeof(string));

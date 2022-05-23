@@ -12,8 +12,17 @@ namespace WyświetlanieDanych
     public static class Program
     {
         /// <summary>
-        /// Główny punkt wejścia dla aplikacji.
+        /// Główny punkt wejścia dla aplikacji oraz serializacja
         /// </summary>
+        /// <example>
+        /// Serializacja
+        /// <code>
+        /// Stream str1 = new FileStream(@"example.txt", FileMode.Open, FileAccess.Read);
+        /// IFormatter format = new BinaryFormatter();
+        /// form1 = (Form1) format.Deserialize(str1);
+        /// str1.Close();
+        /// </code>
+        /// </example>
         [STAThread]
         public static void Main()
         {
@@ -21,7 +30,6 @@ namespace WyświetlanieDanych
             try {
             Stream str1 = new FileStream(@"example.txt", FileMode.Open, FileAccess.Read);
                 IFormatter format = new BinaryFormatter();
-                //the object of the class check is deserialized
                 form1 = (Form1)format.Deserialize(str1);
                 str1.Close();
             }

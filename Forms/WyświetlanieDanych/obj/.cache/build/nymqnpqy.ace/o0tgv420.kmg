@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OdbieranieDanych
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OdbieranieDanych
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych">
+  
+  
+  <h1 id="Wy_wietlanieDanych_OdbieranieDanych" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych" class="text-break">Class OdbieranieDanych
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="obj/api/WyświetlanieDanych.OdbieranieDanych.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Klasa odpowiedzialna za odbieranych danych z arduino. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OdbieranieDanych</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Wy%C5%9BwietlanieDanych.html">WyświetlanieDanych</a></h6>
+  <h6><strong>Assembly</strong>: Wy&#347;wietlanieDanych.dll</h6>
+  <h5 id="Wy_wietlanieDanych_OdbieranieDanych_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OdbieranieDanych</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_OdbieranieDanych__ctor_System_String_.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.OdbieranieDanych.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs/#L29">View Source</a>
+  </span>
+  <a id="Wy_wietlanieDanych_OdbieranieDanych__ctor_" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.#ctor*"></a>
+  <h4 id="Wy_wietlanieDanych_OdbieranieDanych__ctor_System_String_" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.#ctor(System.String)">OdbieranieDanych(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OdbieranieDanych(string portname)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">portname</span></td>
+        <td><p sourcefile="obj/api/WyświetlanieDanych.OdbieranieDanych.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Konstruktor zawiera portName odpowiedzialny za przypisanie konkretnego COM.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_OdbieranieDanych_dateTime.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.OdbieranieDanych.dateTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs/#L22">View Source</a>
+  </span>
+  <a id="Wy_wietlanieDanych_OdbieranieDanych_dateTime_" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.dateTime*"></a>
+  <h4 id="Wy_wietlanieDanych_OdbieranieDanych_dateTime" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.dateTime">dateTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime dateTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_OdbieranieDanych_PortName.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.OdbieranieDanych.PortName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs/#L24">View Source</a>
+  </span>
+  <a id="Wy_wietlanieDanych_OdbieranieDanych_PortName_" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.PortName*"></a>
+  <h4 id="Wy_wietlanieDanych_OdbieranieDanych_PortName" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.PortName">PortName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PortName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p sourcefile="obj/api/WyświetlanieDanych.OdbieranieDanych.yml" sourcestartlinenumber="1" sourceendlinenumber="1">PortName = portname</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_OdbieranieDanych_Wartosci.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.OdbieranieDanych.Wartosci%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs/#L15">View Source</a>
+  </span>
+  <a id="Wy_wietlanieDanych_OdbieranieDanych_Wartosci_" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.Wartosci*"></a>
+  <h4 id="Wy_wietlanieDanych_OdbieranieDanych_Wartosci" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.Wartosci">Wartosci</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;string&gt; Wartosci { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p sourcefile="obj/api/WyświetlanieDanych.OdbieranieDanych.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Przypisane dane z prywatnej listy</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_OdbieranieDanych_serialPort_DataRecived_System_Object_System_IO_Ports_SerialDataReceivedEventArgs_.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.OdbieranieDanych.serialPort_DataRecived(System.Object%2CSystem.IO.Ports.SerialDataReceivedEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs/#L73">View Source</a>
+  </span>
+  <a id="Wy_wietlanieDanych_OdbieranieDanych_serialPort_DataRecived_" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.serialPort_DataRecived*"></a>
+  <h4 id="Wy_wietlanieDanych_OdbieranieDanych_serialPort_DataRecived_System_Object_System_IO_Ports_SerialDataReceivedEventArgs_" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.serialPort_DataRecived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">serialPort_DataRecived(Object, SerialDataReceivedEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serialPort_DataRecived(object sender, SerialDataReceivedEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p sourcefile="obj/api/WyświetlanieDanych.OdbieranieDanych.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Źródło zdarzenia</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Ports.SerialDataReceivedEventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p sourcefile="obj/api/WyświetlanieDanych.OdbieranieDanych.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Obiekt, który nie zawiera żadnych danych zdarzenia</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Wy_wietlanieDanych_OdbieranieDanych_serialPort_DataRecived_System_Object_System_IO_Ports_SerialDataReceivedEventArgs__examples">Examples</h5>
+  <p sourcefile="obj/api/WyświetlanieDanych.OdbieranieDanych.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Ten przykład pokazuje jak są przypisywane dane z arduino do listy oraz wykonania delegata w wątku</p>
+<pre><code>EventHandler handler = DataReceived;
+s = serialPort.ReadLine();
+s = s.Trim();
+dateTime = DateTime.Now;
+string[] a = s.Split(&apos; &apos;);
+wartosci.Clear();</code></pre>
+
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_OdbieranieDanych_DataReceived.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.OdbieranieDanych.DataReceived%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs/#L56">View Source</a>
+  </span>
+  <h4 id="Wy_wietlanieDanych_OdbieranieDanych_DataReceived" data-uid="Wy&#347;wietlanieDanych.OdbieranieDanych.DataReceived">DataReceived</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler DataReceived</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td><p sourcefile="obj/api/WyświetlanieDanych.OdbieranieDanych.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Metoda przypisana do delegata EventHandler jest wywoływana w metodzie serialPort_DataRecived</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_OdbieranieDanych.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.OdbieranieDanych%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/KomponentOdbieranie/OdbieranieDanych.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

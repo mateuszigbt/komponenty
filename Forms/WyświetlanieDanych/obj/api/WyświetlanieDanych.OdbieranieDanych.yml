@@ -25,10 +25,12 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: OdbieranieDanych
     path: KomponentOdbieranie/OdbieranieDanych.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\nKlasa odpowiedzialna za odbieranych danych z arduino. \n"
+  example: []
   syntax:
     content: public class OdbieranieDanych
     content.vb: Public Class OdbieranieDanych
@@ -66,15 +68,17 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Wartosci
     path: KomponentOdbieranie/OdbieranieDanych.cs
-    startLine: 10
+    startLine: 14
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public static List<string> Wartosci { get; set; }
     parameters: []
     return:
       type: System.Collections.Generic.List{System.String}
+      description: Przypisane dane z prywatnej listy
     content.vb: Public Shared Property Wartosci As List(Of String)
   overload: WyświetlanieDanych.OdbieranieDanych.Wartosci*
   modifiers.csharp:
@@ -103,15 +107,17 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: dateTime
     path: KomponentOdbieranie/OdbieranieDanych.cs
-    startLine: 16
+    startLine: 22
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public static DateTime dateTime { get; set; }
     parameters: []
     return:
       type: System.DateTime
+      description: Pobiera obiekt ustawiony na bieżącą DateTime datę i godzinę na tym komputerze, wyrażony jako czas lokalny
     content.vb: Public Shared Property dateTime As Date
   overload: WyświetlanieDanych.OdbieranieDanych.dateTime*
   modifiers.csharp:
@@ -140,15 +146,17 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: PortName
     path: KomponentOdbieranie/OdbieranieDanych.cs
-    startLine: 17
+    startLine: 24
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public string PortName { get; set; }
     parameters: []
     return:
       type: System.String
+      description: PortName = portname
     content.vb: Public Property PortName As String
   overload: WyświetlanieDanych.OdbieranieDanych.PortName*
   modifiers.csharp:
@@ -175,15 +183,18 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: .ctor
     path: KomponentOdbieranie/OdbieranieDanych.cs
-    startLine: 20
+    startLine: 29
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\n\n"
+  example: []
   syntax:
     content: public OdbieranieDanych(string portname)
     parameters:
     - id: portname
       type: System.String
+      description: Konstruktor zawiera portName odpowiedzialny za przypisanie konkretnego COM.
     content.vb: Public Sub New(portname As String)
   overload: WyświetlanieDanych.OdbieranieDanych.#ctor*
   modifiers.csharp:
@@ -208,14 +219,16 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: DataReceived
     path: KomponentOdbieranie/OdbieranieDanych.cs
-    startLine: 48
+    startLine: 58
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  example: []
   syntax:
     content: public event EventHandler DataReceived
     return:
       type: System.EventHandler
+      description: Metoda przypisana do delegata EventHandler jest wywoływana w metodzie serialPort_DataRecived
     content.vb: Public Event DataReceived As EventHandler
   modifiers.csharp:
   - public
@@ -239,17 +252,22 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: serialPort_DataRecived
     path: KomponentOdbieranie/OdbieranieDanych.cs
-    startLine: 51
+    startLine: 75
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
+  summary: "\n\n"
+  example:
+  - "\nTen przykład pokazuje jak są przypisywane dane z arduino do listy oraz wykonania delegata w wątku\n<pre><code>for (int i =0; a.Length; i++)\n    {\n        wartosci.Add(a[i]);\n        Console.WriteLine(a[i]);\n    }\nhandler?.Invoke(this, e)</code></pre>\n"
   syntax:
     content: public void serialPort_DataRecived(object sender, SerialDataReceivedEventArgs e)
     parameters:
     - id: sender
       type: System.Object
+      description: Źródło zdarzenia
     - id: e
       type: System.IO.Ports.SerialDataReceivedEventArgs
+      description: Obiekt, który nie zawiera żadnych danych zdarzenia
     content.vb: Public Sub serialPort_DataRecived(sender As Object, e As SerialDataReceivedEventArgs)
   overload: WyświetlanieDanych.OdbieranieDanych.serialPort_DataRecived*
   modifiers.csharp:
