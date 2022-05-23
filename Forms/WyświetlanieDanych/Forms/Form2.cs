@@ -19,7 +19,7 @@ namespace WyświetlanieDanych
         public Form2()
         {
             InitializeComponent();
-            odbieranieDanych = new OdbieranieDanych("COM3");
+            odbieranieDanych = new OdbieranieDanych("COM5");
             Thread.Sleep(1111);
             odbieranieDanych.DataReceived += OdbieranieDanych_DataReceived;
             
@@ -67,16 +67,7 @@ namespace WyświetlanieDanych
                     trackBar1.Value = 0;
                 }
             }));
-            try
-            {
-                this.dataLabel.Text = OdbieranieDanych.dateTime.ToString(); //dalem try-catch bo wywalo blad nie wiem czemu
-            }                                                               // w prompt vs cl do dokumentacji docfx serve C:\Users\proo\source\komponenty\Forms\WyświetlanieDanych\_site
-            catch (Exception ex)
-            {
-
-                
-            }
-            
+            this.dataLabel.Text = OdbieranieDanych.dateTime.ToString();
         }
 
         private void Form2_Load(object sender, EventArgs e)

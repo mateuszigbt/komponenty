@@ -9,11 +9,11 @@ using System.Windows.Forms;
 
 namespace WyświetlanieDanych
 {
-    /// <summary>Class <c>Point</c> models a point in a two-dimensional
-    
     public static class Program
     {
-        
+        /// <summary>
+        /// Główny punkt wejścia dla aplikacji.
+        /// </summary>
         [STAThread]
         public static void Main()
         {
@@ -32,9 +32,7 @@ namespace WyświetlanieDanych
             Application.Run(form1);
 
         }
-        
 
+        
     }
-    /// plane.</summary>
-    ///
 }

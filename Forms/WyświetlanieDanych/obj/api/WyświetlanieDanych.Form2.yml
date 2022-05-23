@@ -592,7 +592,7 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Name1
     path: Forms/Form2.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
@@ -627,7 +627,7 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Name2
     path: Forms/Form2.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
@@ -662,7 +662,7 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: Name3
     path: Forms/Form2.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych
@@ -697,7 +697,7 @@ items:
       repo: https://github.com/mateuszigbt/komponenty
     id: .ctor
     path: Forms/Form2.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - WyświetlanieDanych
   namespace: WyświetlanieDanych

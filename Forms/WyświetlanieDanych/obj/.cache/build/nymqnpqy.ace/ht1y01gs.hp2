@@ -1,14 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Form2
+    <title>Class Form1
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Form2
+    <meta name="title" content="Class Form1
    ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -68,10 +68,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Wy&#347;wietlanieDanych.Form2">
+            <article class="content wrap" id="_content" data-uid="Wy&#347;wietlanieDanych.Form1">
   
   
-  <h1 id="Wy_wietlanieDanych_Form2" data-uid="Wy&#347;wietlanieDanych.Form2" class="text-break">Class Form2
+  <h1 id="Wy_wietlanieDanych_Form1" data-uid="Wy&#347;wietlanieDanych.Form1" class="text-break">Class Form1
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -84,7 +84,7 @@
     <div class="level4"><span class="xref">System.Windows.Forms.ScrollableControl</span></div>
     <div class="level5"><span class="xref">System.Windows.Forms.ContainerControl</span></div>
     <div class="level6"><span class="xref">System.Windows.Forms.Form</span></div>
-    <div class="level7"><span class="xref">Form2</span></div>
+    <div class="level7"><span class="xref">Form1</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -95,6 +95,7 @@
     <div><span class="xref">System.ComponentModel.IComponent</span></div>
     <div><span class="xref">System.IDisposable</span></div>
     <div><span class="xref">System.Windows.Forms.IContainerControl</span></div>
+    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -1643,204 +1644,61 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Wy%C5%9BwietlanieDanych.html">WyświetlanieDanych</a></h6>
   <h6><strong>Assembly</strong>: Wy&#347;wietlanieDanych.dll</h6>
-  <h5 id="Wy_wietlanieDanych_Form2_syntax">Syntax</h5>
+  <h5 id="Wy_wietlanieDanych_Form1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Form2 : Form, IDropTarget, ISynchronizeInvoke, IWin32Window, IBindableComponent, IComponent, IDisposable, IContainerControl</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Form1 : Form, IDropTarget, ISynchronizeInvoke, IWin32Window, IBindableComponent, IComponent, IDisposable, IContainerControl, ISerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2__ctor.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form1__ctor.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form1.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.cs/#L22">View Source</a>
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form1.cs/#L24">View Source</a>
   </span>
-  <a id="Wy_wietlanieDanych_Form2__ctor_" data-uid="Wy&#347;wietlanieDanych.Form2.#ctor*"></a>
-  <h4 id="Wy_wietlanieDanych_Form2__ctor" data-uid="Wy&#347;wietlanieDanych.Form2.#ctor">Form2()</h4>
+  <a id="Wy_wietlanieDanych_Form1__ctor_" data-uid="Wy&#347;wietlanieDanych.Form1.#ctor*"></a>
+  <h4 id="Wy_wietlanieDanych_Form1__ctor" data-uid="Wy&#347;wietlanieDanych.Form1.#ctor">Form1()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Form2()</code></pre>
+    <pre><code class="lang-csharp hljs">public Form1()</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2_chart1.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2.chart1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form1__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form1.%23ctor(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.Designer.cs/#L198">View Source</a>
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form1.cs/#L29">View Source</a>
   </span>
-  <h4 id="Wy_wietlanieDanych_Form2_chart1" data-uid="Wy&#347;wietlanieDanych.Form2.chart1">chart1</h4>
+  <a id="Wy_wietlanieDanych_Form1__ctor_" data-uid="Wy&#347;wietlanieDanych.Form1.#ctor*"></a>
+  <h4 id="Wy_wietlanieDanych_Form1__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="Wy&#347;wietlanieDanych.Form1.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">Form1(SerializationInfo, StreamingContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Chart chart1</code></pre>
+    <pre><code class="lang-csharp hljs">public Form1(SerializationInfo info, StreamingContext context)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Windows.Forms.DataVisualization.Charting.Chart</span></td>
+        <td><span class="xref">System.Runtime.Serialization.SerializationInfo</span></td>
+        <td><span class="parametername">info</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2_circularProgressBar1.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2.circularProgressBar1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.Designer.cs/#L196">View Source</a>
-  </span>
-  <h4 id="Wy_wietlanieDanych_Form2_circularProgressBar1" data-uid="Wy&#347;wietlanieDanych.Form2.circularProgressBar1">circularProgressBar1</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CircularProgressBar.CircularProgressBar circularProgressBar1</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CircularProgressBar.CircularProgressBar</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2_trackBar1.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2.trackBar1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.Designer.cs/#L197">View Source</a>
-  </span>
-  <h4 id="Wy_wietlanieDanych_Form2_trackBar1" data-uid="Wy&#347;wietlanieDanych.Form2.trackBar1">trackBar1</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TrackBar trackBar1</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Windows.Forms.TrackBar</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2_Name1.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2.Name1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.cs/#L14">View Source</a>
-  </span>
-  <a id="Wy_wietlanieDanych_Form2_Name1_" data-uid="Wy&#347;wietlanieDanych.Form2.Name1*"></a>
-  <h4 id="Wy_wietlanieDanych_Form2_Name1" data-uid="Wy&#347;wietlanieDanych.Form2.Name1">Name1</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name1 { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2_Name2.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2.Name2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.cs/#L15">View Source</a>
-  </span>
-  <a id="Wy_wietlanieDanych_Form2_Name2_" data-uid="Wy&#347;wietlanieDanych.Form2.Name2*"></a>
-  <h4 id="Wy_wietlanieDanych_Form2_Name2" data-uid="Wy&#347;wietlanieDanych.Form2.Name2">Name2</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name2 { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2_Name3.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2.Name3%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.cs/#L16">View Source</a>
-  </span>
-  <a id="Wy_wietlanieDanych_Form2_Name3_" data-uid="Wy&#347;wietlanieDanych.Form2.Name3*"></a>
-  <h4 id="Wy_wietlanieDanych_Form2_Name3" data-uid="Wy&#347;wietlanieDanych.Form2.Name3">Name3</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name3 { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Runtime.Serialization.StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1849,14 +1707,14 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form1_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form1.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.Designer.cs/#L14">View Source</a>
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form1.Designer.cs/#L14">View Source</a>
   </span>
-  <a id="Wy_wietlanieDanych_Form2_Dispose_" data-uid="Wy&#347;wietlanieDanych.Form2.Dispose*"></a>
-  <h4 id="Wy_wietlanieDanych_Form2_Dispose_System_Boolean_" data-uid="Wy&#347;wietlanieDanych.Form2.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Clean up any resources being used.</p>
+  <a id="Wy_wietlanieDanych_Form1_Dispose_" data-uid="Wy&#347;wietlanieDanych.Form1.Dispose*"></a>
+  <h4 id="Wy_wietlanieDanych_Form1_Dispose_System_Boolean_" data-uid="Wy&#347;wietlanieDanych.Form1.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/WyświetlanieDanych.Form1.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Wyczyść wszystkie używane zasoby.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1876,13 +1734,50 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">disposing</span></td>
-        <td><p>true if managed resources should be disposed; otherwise, false.</p>
+        <td><p sourcefile="obj/api/WyświetlanieDanych.Form1.yml" sourcestartlinenumber="1" sourceendlinenumber="1">prawda, jeżeli zarządzane zasoby powinny zostać zlikwidowane; Fałsz w przeciwnym wypadku.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Windows.Forms.Form.Dispose(System.Boolean)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form1_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form1.GetObjectData(System.Runtime.Serialization.SerializationInfo%2CSystem.Runtime.Serialization.StreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form1.cs/#L124">View Source</a>
+  </span>
+  <a id="Wy_wietlanieDanych_Form1_GetObjectData_" data-uid="Wy&#347;wietlanieDanych.Form1.GetObjectData*"></a>
+  <h4 id="Wy_wietlanieDanych_Form1_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_" data-uid="Wy&#347;wietlanieDanych.Form1.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">GetObjectData(SerializationInfo, StreamingContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetObjectData(SerializationInfo info, StreamingContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.Windows.Forms.IDropTarget</span>
@@ -1905,6 +1800,9 @@
   <div>
       <span class="xref">System.Windows.Forms.IContainerControl</span>
   </div>
+  <div>
+      <span class="xref">System.Runtime.Serialization.ISerializable</span>
+  </div>
 </article>
           </div>
           
@@ -1913,10 +1811,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form2.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/mateuszigbt/komponenty/new/pawel_final/apiSpec/new?filename=Wy_wietlanieDanych_Form1.md&amp;value=---%0Auid%3A%20Wy%C5%9BwietlanieDanych.Form1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form2.Designer.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/mateuszigbt/komponenty/blob/pawel_final/Forms/Wy&#347;wietlanieDanych/Forms/Form1.Designer.cs/#L3" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
